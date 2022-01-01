@@ -2,7 +2,7 @@ from lib.receiver import Receiver
 from lib.spliner import Spliner
 from lib.data import Data
 import rospy
-from std_msgs.msg import string
+from std_msgs.msg import String
 
 class Master:
     def __init__(self):
