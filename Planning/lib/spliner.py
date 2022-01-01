@@ -1,6 +1,6 @@
 import numpy as np
 class Spliner:
-    def __init__(slef, data):
+    def __init__(self, data):
         self.data = data
 
     def run(self):
