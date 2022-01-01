@@ -3,7 +3,7 @@ from geometry_msgs.msg import Point
 
 class Sender:
     def __init__(self):
-        rospy.init_node('Sender', anonymous = false)
+        rospy.init_node('Sender', anonymous = False)
         self.pub = rospy.Publisher('/point', Point, queue_size = 1)
         self.msg = Point()
 
