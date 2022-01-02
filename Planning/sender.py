@@ -9,7 +9,7 @@ class Sender:
 
     def run(self):
         inin = input("Input new point: ")
-        self.msg,x = float(inin)
+        self.msg.x = float(inin)
         self.pub.publish(self.msg)
 
 if __name__ == "__main__":
