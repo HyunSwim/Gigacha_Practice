@@ -1,7 +1,7 @@
 import rospy
 from geometry_msgs.msg import Point
 
-class Recevier:
+class Receiver:
     def __init__(self, data):
         self.data = data
         rospy.Subscriber('/point', Point, self.pointCallback)
